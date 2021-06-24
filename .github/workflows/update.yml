@@ -1,0 +1,10 @@
+name: Update release status
+on: workflow_dispatch
+
+jobs:
+  update_status:
+    name: Update status
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          "${GITHUB_WORKSPACE}/scripts/update.sh"
