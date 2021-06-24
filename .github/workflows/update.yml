@@ -16,10 +16,13 @@ jobs:
           retention-days: 1
 
   publish_site:
-    name: Update status
+    name: Publish site
     needs: update_status
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: gh-pages
       - uses: actions/download-artifact@v2
         with:
           name: gh-pages
