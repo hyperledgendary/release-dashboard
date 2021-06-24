@@ -6,5 +6,6 @@ jobs:
     name: Update status
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - run: |
           "${GITHUB_WORKSPACE}/scripts/update.sh"
