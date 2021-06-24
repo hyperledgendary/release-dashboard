@@ -1,14 +1,16 @@
 ---
 layout: default
 ---
+
+{{content}}
+
 <ul>
     {% for repo_hash in site.data.repos %}
+    {% assign repo_name = repo_hash[0] %}
     {% assign repo = repo_hash[1] %}
     <li>
-        {{ repo_hash }}
-        ({{ org.days_since }} days)
+        {{ repo_name }}
+        ({{ repo.days_since }} days)
     </li>
     {% endfor %}
 </ul>
-
-{{content}}
