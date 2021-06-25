@@ -15,3 +15,5 @@ do
 done
 
 jq -s . "${RUNNER_TEMP:?}/releases/"*.json > "${GITHUB_WORKSPACE}/docs/_data/releases.json"
+
+jq '{ last_updated: now | todateiso8601 }' <<< "{}" > "${GITHUB_WORKSPACE}/docs/_data/meta.json"
