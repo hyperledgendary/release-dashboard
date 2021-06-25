@@ -9,6 +9,9 @@ layout: default
 
 <h3>Days since last release: {{ last_release.days_since }}</h3>
 
+<p>{{ last_release.name }} was released on {{ last_release.published | date_to_long_string: "ordinal" }}</p>
+
+<p>(Last updated: {{ site.data.meta.last_updated | date_to_long_string: "ordinal" }})</p>
 
 {% for rel in releases %}
 <h4>{{ rel.name }}</h4>
