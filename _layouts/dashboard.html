@@ -4,13 +4,17 @@ layout: default
 
 {{content}}
 
+{% assign releases = site.data.releases | sort: "days_since" | reverse %}
+{% assign last_release = releases | last %}
+
+<h3>Days since last release: {{ last_release.days_since }}</h3>
+
+
+{% for rel in releases %}
+<h4>{{ rel.name }}</h4>
 <ul>
-    {% for repo_hash in site.data.repos %}
-    {% assign repo_name = repo_hash[0] %}
-    {% assign repo = repo_hash[1] %}
-    <li>
-        {{ repo_name }}
-        ({{ repo.days_since }} days)
-    </li>
-    {% endfor %}
+    <li>{{ site.data.repositories[rel.name].info }}</li>
+    <li>Last release: <a href="{{ rel.url }}">{{ rel.version }}</a></li>
+    <li><b>Days since last release: {{ rel.days_since }}</b></li>
 </ul>
+{% endfor %}
