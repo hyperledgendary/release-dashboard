@@ -1,0 +1,38 @@
+{
+    "fabric-ca": {
+        "info": "fabric-ca info TBC",
+        "url": "https://github.com/hyperledger/fabric-ca"
+    },
+    "fabric-chaincode-java": {
+        "info": "fabric-chaincode-java info TBC",
+        "url": "https://github.com/hyperledger/fabric-chaincode-java"
+    },
+    "fabric-chaincode-node": {
+        "info": "fabric-chaincode-node info TBC",
+        "url": "https://github.com/hyperledger/fabric-chaincode-node"
+    },
+    "fabric-contract-api-go": {
+        "info": "fabric-contract-api-go info TBC",
+        "url": "https://github.com/hyperledger/fabric-contract-api-go"
+    },
+    "fabric-gateway-java": {
+        "info": "fabric-gateway-java info TBC",
+        "url": "https://github.com/hyperledger/fabric-gateway-java"
+    },
+    "fabric-sdk-go": {
+        "info": "fabric-sdk-go info TBC",
+        "url": "https://github.com/hyperledger/fabric-sdk-go"
+    },
+    "fabric-sdk-java": {
+        "info": "fabric-sdk-java info TBC",
+        "url": "https://github.com/hyperledger/fabric-sdk-java"
+    },
+    "fabric-sdk-node": {
+        "info": "fabric-sdk-node info TBC",
+        "url": "https://github.com/hyperledger/fabric-sdk-node"
+    },
+    "fabric": {
+        "info": "fabric info TBC",
+        "url": "https://github.com/hyperledger/fabric/releases"
+    }
+}

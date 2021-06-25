@@ -1,5 +1,9 @@
 name: Update release status
-on: workflow_dispatch
+
+on:
+  workflow_dispatch
+  schedule:
+    - cron: * 0/6 * * *
 
 jobs:
   update_status:
