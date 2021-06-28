@@ -7,17 +7,41 @@ layout: default
 {% assign releases = site.data.releases | sort: "days_since" | reverse %}
 {% assign last_release = releases | last %}
 
-<h3>Days since last release: {{ last_release.days_since }}</h3>
+<h3>
+    {% if last_release.days_since > 28 %}
+        🆘
+    {% elsif last_release.days_since > 14 %}
+        ⚠️
+    {% else %}
+        ✅
+    {% endif %}
+    Days since last release: {{ last_release.days_since }}
+</h3>
 
-<p>{{ last_release.name }} was released on {{ last_release.published | date_to_long_string: "ordinal" }}</p>
+<p><a href="{{ last_release.url }}">{{ last_release.name }} {{ last_release.version }}</a> was released on {{ last_release.published | date_to_long_string: "ordinal" }}</p>
 
 <p>(Last updated: {{ site.data.meta.last_updated | date_to_long_string: "ordinal" }})</p>
 
 {% for rel in releases %}
-<h4>{{ rel.name }}</h4>
+<h4>
+    {% if rel.days_since > 28 %}
+        🆘
+    {% elsif rel.days_since > 14 %}
+        ⚠️
+    {% else %}
+        ✅
+    {% endif %}
+    {{ rel.name }}
+</h4>
 <ul>
-    <li>{{ site.data.repositories[rel.name].info }}</li>
-    <li>Last release: <a href="{{ rel.url }}">{{ rel.version }}</a></li>
     <li><b>Days since last release: {{ rel.days_since }}</b></li>
+    <li>Last release: <a href="{{ rel.url }}">{{ rel.version }}</a></li>
+    <li>
+        {% if site.data.repositories[rel.name].releasing %}
+            🚀 <a href="{{ site.data.repositories[rel.name].releasing }}">Release process</a>
+        {% else %}
+            ⚠️ No release process document
+        {% endif %}
+    </li>
 </ul>
 {% endfor %}
