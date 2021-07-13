@@ -29,6 +29,7 @@
         "url": "https://github.com/hyperledger/fabric-sdk-node"
     },
     "fabric": {
+        "releasing": "https://docs.google.com/document/d/1JmihsU4uJniC9MMhiOgHJA-waJ0PrJg6OViHrhP1tUY",
         "url": "https://github.com/hyperledger/fabric/releases"
     }
 }
