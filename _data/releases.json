@@ -57,9 +57,9 @@
   },
   {
     "name": "fabric",
-    "version": "v2.3.2",
-    "published": "2021-04-23T20:48:15Z",
-    "url": "https://github.com/hyperledger/fabric/releases/tag/v2.3.2",
-    "days_since": 110
+    "version": "v2.4.0-beta",
+    "published": "2021-08-12T02:34:24Z",
+    "url": "https://github.com/hyperledger/fabric/releases/tag/v2.4.0-beta",
+    "days_since": 0
   }
 ]
