@@ -1,5 +1,6 @@
 {
     "fabric-ca": {
+        "releasing": "https://docs.google.com/document/d/1JmihsU4uJniC9MMhiOgHJA-waJ0PrJg6OViHrhP1tUY#heading=h.jah320uv7zgd",
         "url": "https://github.com/hyperledger/fabric-ca"
     },
     "fabric-chaincode-java": {
