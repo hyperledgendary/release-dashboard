@@ -25,14 +25,14 @@
     "version": "v1.1.1",
     "published": "2020-10-21T15:55:10Z",
     "url": "https://github.com/hyperledger/fabric-contract-api-go/releases/tag/v1.1.1",
-    "days_since": 360
+    "days_since": 361
   },
   {
     "name": "fabric-gateway-java",
     "version": "v2.2.2",
     "published": "2021-04-27T14:55:35Z",
     "url": "https://github.com/hyperledger/fabric-gateway-java/releases/tag/v2.2.2",
-    "days_since": 172
+    "days_since": 173
   },
   {
     "name": "fabric-sdk-go",
@@ -46,7 +46,7 @@
     "version": "v2.2.8",
     "published": "2021-08-26T14:38:25Z",
     "url": "https://github.com/hyperledger/fabric-sdk-java/releases/tag/v2.2.8",
-    "days_since": 51
+    "days_since": 52
   },
   {
     "name": "fabric-sdk-node",
@@ -60,6 +60,6 @@
     "version": "v2.3.3",
     "published": "2021-09-09T15:49:32Z",
     "url": "https://github.com/hyperledger/fabric/releases/tag/v2.3.3",
-    "days_since": 37
+    "days_since": 38
   }
 ]
