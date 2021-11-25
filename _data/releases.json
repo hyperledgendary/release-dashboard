@@ -32,7 +32,7 @@
     "version": "v2.2.2",
     "published": "2021-04-27T14:55:35Z",
     "url": "https://github.com/hyperledger/fabric-gateway-java/releases/tag/v2.2.2",
-    "days_since": 211
+    "days_since": 212
   },
   {
     "name": "fabric-sdk-go",
