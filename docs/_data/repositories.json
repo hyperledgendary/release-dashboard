@@ -18,6 +18,10 @@
     "fabric-gateway-java": {
         "url": "https://github.com/hyperledger/fabric-gateway-java"
     },
+    "fabric-gateway": {
+        "releasing": "https://github.com/hyperledger/fabric-gateway/blob/main/RELEASING.md",
+        "url": "https://github.com/hyperledger/fabric-gateway"
+    },
     "fabric-sdk-go": {
         "url": "https://github.com/hyperledger/fabric-sdk-go"
     },
