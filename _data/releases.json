@@ -50,17 +50,17 @@
   },
   {
     "name": "fabric-sdk-java",
-    "version": "v2.2.8",
-    "published": "2021-08-26T14:38:25Z",
-    "url": "https://github.com/hyperledger/fabric-sdk-java/releases/tag/v2.2.8",
-    "days_since": 109
+    "version": "v2.2.9",
+    "published": "2021-12-14T10:51:58Z",
+    "url": "https://github.com/hyperledger/fabric-sdk-java/releases/tag/v2.2.9",
+    "days_since": 0
   },
   {
     "name": "fabric-sdk-node",
     "version": "v2.2.10",
     "published": "2021-10-22T08:09:21Z",
     "url": "https://github.com/hyperledger/fabric-sdk-node/releases/tag/v2.2.10",
-    "days_since": 52
+    "days_since": 53
   },
   {
     "name": "fabric",
