@@ -53,14 +53,14 @@
     "version": "v2.2.9",
     "published": "2021-12-14T10:51:58Z",
     "url": "https://github.com/hyperledger/fabric-sdk-java/releases/tag/v2.2.9",
-    "days_since": 0
+    "days_since": 1
   },
   {
     "name": "fabric-sdk-node",
     "version": "v2.2.10",
     "published": "2021-10-22T08:09:21Z",
     "url": "https://github.com/hyperledger/fabric-sdk-node/releases/tag/v2.2.10",
-    "days_since": 53
+    "days_since": 54
   },
   {
     "name": "fabric",
