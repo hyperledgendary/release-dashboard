@@ -32,14 +32,14 @@
     "version": "v2.2.3",
     "published": "2022-01-12T10:22:56Z",
     "url": "https://github.com/hyperledger/fabric-gateway-java/releases/tag/v2.2.3",
-    "days_since": 43
+    "days_since": 44
   },
   {
     "name": "fabric-gateway",
     "version": "v1.0.1",
     "published": "2022-02-08T09:21:59Z",
     "url": "https://github.com/hyperledger/fabric-gateway/releases/tag/v1.0.1",
-    "days_since": 16
+    "days_since": 17
   },
   {
     "name": "fabric-sdk-go",
@@ -60,7 +60,7 @@
     "version": "v1.4.19",
     "published": "2022-01-19T09:13:38Z",
     "url": "https://github.com/hyperledger/fabric-sdk-node/releases/tag/v1.4.19",
-    "days_since": 36
+    "days_since": 37
   },
   {
     "name": "fabric",
