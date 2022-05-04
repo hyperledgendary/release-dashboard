@@ -15,9 +15,9 @@
   },
   {
     "name": "fabric-chaincode-node",
-    "version": "v2.2.3",
-    "published": "2022-05-03T10:09:22Z",
-    "url": "https://github.com/hyperledger/fabric-chaincode-node/releases/tag/v2.2.3",
+    "version": "v2.4.2",
+    "published": "2022-05-04T11:14:38Z",
+    "url": "https://github.com/hyperledger/fabric-chaincode-node/releases/tag/v2.4.2",
     "days_since": 0
   },
   {
@@ -39,7 +39,7 @@
     "version": "v1.0.1",
     "published": "2022-02-08T09:21:59Z",
     "url": "https://github.com/hyperledger/fabric-gateway/releases/tag/v1.0.1",
-    "days_since": 84
+    "days_since": 85
   },
   {
     "name": "fabric-sdk-go",
@@ -60,7 +60,7 @@
     "version": "v1.4.19",
     "published": "2022-01-19T09:13:38Z",
     "url": "https://github.com/hyperledger/fabric-sdk-node/releases/tag/v1.4.19",
-    "days_since": 104
+    "days_since": 105
   },
   {
     "name": "fabric",
