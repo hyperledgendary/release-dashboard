@@ -18,7 +18,7 @@
     "version": "v2.4.2",
     "published": "2022-05-04T11:14:38Z",
     "url": "https://github.com/hyperledger/fabric-chaincode-node/releases/tag/v2.4.2",
-    "days_since": 56
+    "days_since": 57
   },
   {
     "name": "fabric-contract-api-go",
@@ -36,10 +36,10 @@
   },
   {
     "name": "fabric-gateway",
-    "version": "v1.0.1",
-    "published": "2022-02-08T09:21:59Z",
-    "url": "https://github.com/hyperledger/fabric-gateway/releases/tag/v1.0.1",
-    "days_since": 141
+    "version": "v1.1.0",
+    "published": "2022-06-30T11:03:24Z",
+    "url": "https://github.com/hyperledger/fabric-gateway/releases/tag/v1.1.0",
+    "days_since": 0
   },
   {
     "name": "fabric-sdk-go",
