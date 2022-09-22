@@ -46,7 +46,7 @@
     "version": "v1.0.0",
     "published": "2021-02-01T21:21:17Z",
     "url": "https://github.com/hyperledger/fabric-sdk-go/releases/tag/v1.0.0",
-    "days_since": 596
+    "days_since": 597
   },
   {
     "name": "fabric-sdk-java",
@@ -67,6 +67,6 @@
     "version": "v2.4.6",
     "published": "2022-08-08T22:06:24Z",
     "url": "https://github.com/hyperledger/fabric/releases/tag/v2.4.6",
-    "days_since": 43
+    "days_since": 44
   }
 ]
