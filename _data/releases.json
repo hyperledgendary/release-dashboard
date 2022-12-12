@@ -25,7 +25,7 @@
     "version": "v1.2.0",
     "published": "2022-09-23T13:44:06Z",
     "url": "https://github.com/hyperledger/fabric-contract-api-go/releases/tag/v1.2.0",
-    "days_since": 79
+    "days_since": 80
   },
   {
     "name": "fabric-gateway-java",
@@ -67,6 +67,6 @@
     "version": "v2.4.7",
     "published": "2022-10-27T17:50:35Z",
     "url": "https://github.com/hyperledger/fabric/releases/tag/v2.4.7",
-    "days_since": 45
+    "days_since": 46
   }
 ]
