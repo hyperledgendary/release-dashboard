@@ -4,7 +4,7 @@
     "version": "v1.5.6-beta2",
     "published": "2022-12-15T20:28:11Z",
     "url": "https://github.com/hyperledger/fabric-ca/releases/tag/v1.5.6-beta2",
-    "days_since": 14
+    "days_since": 15
   },
   {
     "name": "fabric-chaincode-java",
@@ -46,14 +46,14 @@
     "version": "v1.0.0",
     "published": "2021-02-01T21:21:17Z",
     "url": "https://github.com/hyperledger/fabric-sdk-go/releases/tag/v1.0.0",
-    "days_since": 696
+    "days_since": 697
   },
   {
     "name": "fabric-sdk-java",
     "version": "v2.2.19",
     "published": "2022-11-29T18:45:38Z",
     "url": "https://github.com/hyperledger/fabric-sdk-java/releases/tag/v2.2.19",
-    "days_since": 30
+    "days_since": 31
   },
   {
     "name": "fabric-sdk-node",
