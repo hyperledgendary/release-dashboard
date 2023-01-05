@@ -35,6 +35,34 @@
     "days_since": 33
   },
   {
+    "name": "fabric-gateway",
+    "version": "v1.1.2",
+    "published": "2022-12-14T13:51:58Z",
+    "url": "https://github.com/hyperledger/fabric-gateway/releases/tag/v1.1.2",
+    "days_since": 21
+  },
+  {
+    "name": "fabric-sdk-go",
+    "version": "v1.0.0",
+    "published": "2021-02-01T21:21:17Z",
+    "url": "https://github.com/hyperledger/fabric-sdk-go/releases/tag/v1.0.0",
+    "days_since": 702
+  },
+  {
+    "name": "fabric-sdk-java",
+    "version": "v2.2.19",
+    "published": "2022-11-29T18:45:38Z",
+    "url": "https://github.com/hyperledger/fabric-sdk-java/releases/tag/v2.2.19",
+    "days_since": 36
+  },
+  {
+    "name": "fabric-sdk-node",
+    "version": "v2.2.16",
+    "published": "2022-11-24T11:18:06Z",
+    "url": "https://github.com/hyperledger/fabric-sdk-node/releases/tag/v2.2.16",
+    "days_since": 41
+  },
+  {
     "name": "fabric",
     "version": "v2.4.7",
     "published": "2022-10-27T17:50:35Z",
